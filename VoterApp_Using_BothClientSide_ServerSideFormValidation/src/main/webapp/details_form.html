@@ -1,0 +1,16 @@
+<h1 style="color:red;text-align:center"> Working with Client Side Form Validations</h1>
+
+
+<script language="JavaScript" src="js/validation.js">
+
+</script>
+
+<form action="voterfvc" method="GET" onsubmit="return validate(this)">
+   person name::<input type="text" name="pname"><span id="pnameErr" style='color:red'></span> <br>
+   person age::<input type="text" name="page"><span id="pageErr" style='color:red'></span><br>
+   <input type="submit" value="checkVotingEligibilty">
+   <input type="hidden" name="vstatus" value="no"/>
+</form>
+
+<br><br>
+<h1><a href="voterfvc">SysDate time</a></h1>

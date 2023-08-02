@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+   <servlet>
+      <servlet-name>html</servlet-name>
+        <servlet-class>HtmlServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>html</servlet-name>
+    <url-pattern>/htmlurl</url-pattern>
+   </servlet-mapping>
+    <servlet>
+      <servlet-name>plain</servlet-name>
+        <servlet-class>PlainServlet</servlet-class>
+        <load-on-startup>5</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>plain</servlet-name>
+    <url-pattern>/plainurl</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+      <servlet-name>xml</servlet-name>
+        <servlet-class>XmlServlet</servlet-class>
+        <load-on-startup>10</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>xml</servlet-name>
+    <url-pattern>/xmlurl</url-pattern>
+   </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>lc</servlet-name>
+ <servlet-class>LcTestServlet</servlet-class>
+ <load-on-startup>2</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>lc</servlet-name>
+  <url-pattern>/lcur</url-pattern>
+  
+  </servlet-mapping>
+   
+    <servlet>
+      <servlet-name>word</servlet-name>
+        <servlet-class>WordServlet</servlet-class>
+        <load-on-startup>12</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>word</servlet-name>
+    <url-pattern>/wordurl</url-pattern>
+   </servlet-mapping>
+   
+    <servlet>
+      <servlet-name>excel</servlet-name>
+        <servlet-class>ExcelServlet</servlet-class>
+        <load-on-startup>7</load-on-startup>
+   </servlet>
+   <servlet-mapping>
+    <servlet-name>excel</servlet-name>
+    <url-pattern>/excelurl</url-pattern>
+   </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="VoterApp_WorkingWith_DoGet_DoPost">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                                
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                                
+        
+        
+        <property name="java-output-path" value="/VoterApp_WorkingWith_DoGet_DoPost/build/classes"/>
+        <property name="context-root" value="VoterApp_Using_BothClientSide_ServerSideFormValidation"/>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
